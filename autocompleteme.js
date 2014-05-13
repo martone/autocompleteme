@@ -8,7 +8,7 @@
 (function() {
   var elements = document.querySelectorAll('input[autocomplete=off]');
   if (elements.length) {
-    console.group(
+    console.groupCollapsed(
         'Removing autocomplete=off from the following %d element(s):',
         elements.length);
     Array.prototype.forEach.call(elements, function(e) {
