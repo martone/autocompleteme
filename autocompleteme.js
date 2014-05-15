@@ -6,7 +6,7 @@
  * Andy Martone (amartone@gmail.com)
  */
 (function() {
-  var elements = document.querySelectorAll('input[autocomplete=off]');
+  var elements = document.querySelectorAll('[autocomplete=off]');
   if (elements.length) {
     console.groupCollapsed(
         'Removing autocomplete=off from the following %d element(s):',
